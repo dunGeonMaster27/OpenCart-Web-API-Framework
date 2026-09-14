@@ -1,0 +1,42 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# TypeScript
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+
+# Excel/Output
+*.xlsx
+
+# Misc
+coverage/
+.idea/
+
+# OS files
+Thumbs.db

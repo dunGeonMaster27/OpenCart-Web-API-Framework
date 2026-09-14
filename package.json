@@ -1,0 +1,23 @@
+{
+  "name": "opencart_web_api_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Saket",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0"
+  },
+  "allowScripts": {
+    "fsevents@2.3.2": true
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.2",
+    "dotenv": "^17.4.2",
+    "xlsx": "^0.18.5"
+  }
+}
