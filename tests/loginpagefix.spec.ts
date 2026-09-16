@@ -20,7 +20,7 @@ test('forgot password link test', async ({ page, loginPage }) => {
 })
 
 test('valid user login test', async ({ page, loginPage }) => {
-    await loginPage.doLogin(process.env.USERNAME, process.env.PASSWORD);
+    await loginPage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
     expect(await loginPage.getLoginPageTitle()).toBe('My Account');
 
     await page.waitForTimeout(500);
