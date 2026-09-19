@@ -6,8 +6,6 @@ let AUTH_HEADER = {
     Authorization: `Bearer ${TOKEN}`
 }
 
-let userId: number;
-
 async function createUser(apiHelper: any) {
     let userData = {
         name: "Test",

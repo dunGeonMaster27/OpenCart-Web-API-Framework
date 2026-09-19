@@ -5,7 +5,7 @@
 
 import Ajv from 'ajv';
 import { test, expect } from '../../src/fixtures/apifixtures';
-import { get } from 'node:http';
+import fs from 'fs';
 
 const TOKEN = process.env.API_TOKEN;
 
@@ -15,33 +15,7 @@ let AUTH_HEADER = {
 
 let ajv = new Ajv();
 
-let userSchema = {
-    "type": "object",
-    "properties": {
-        "id": {
-            "type": "number"
-        },
-        "name": {
-            "type": "string"
-        },
-        "email": {
-            "type": "string"
-        },
-        "gender": {
-            "type": "string"
-        },
-        "status": {
-            "type": "string"
-        }
-    },
-    "required": [
-        "id",
-        "name",
-        "email",
-        "gender",
-        "status"
-    ]
-};
+let userSchema = JSON.parse(fs.readFileSync('./src/schema/userschema.json', 'utf-8'));
 
 
 let userArraySchema = {
