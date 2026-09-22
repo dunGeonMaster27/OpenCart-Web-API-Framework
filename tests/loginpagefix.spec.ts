@@ -2,24 +2,40 @@ import { CsvHelper } from '../src/utils/CsvHelper';
 import { ExcelHelper } from '../src/utils/ExcelHelper';
 import { JsonHelper } from '../src/utils/JsonHelper';
 import { test, expect } from '../src/fixtures/pagefixtures';
+import * as allure from 'allure-js-commons';
+import { meta, log, testData } from 'reporting-labs';
 
 test.beforeEach(async ({ loginPage }) => {
     await loginPage.goToLoginPage();
 })
 
 test('login page title test', async ({ page, loginPage }) => {
+    meta({ owner: 'Saket', priority: 'P1', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34'})
+
     expect(await loginPage.getLoginPageTitle()).toBe('Account Login');
+    await log('Login Page Title:', await loginPage.getLoginPageTitle());
 
     await page.waitForTimeout(500);
 })
 
 test('forgot password link test', async ({ page, loginPage }) => {
+    meta({ owner: 'Saket 1', priority: 'P1', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34' })
     expect(await loginPage.isForgottenPasswordLinkPresent()).toBeTruthy();
 
     await page.waitForTimeout(500);
 })
 
 test('valid user login test', async ({ page, loginPage }) => {
+    // await allure.suite("Login Tests");
+    // await allure.severity("critical");
+    // await allure.feature("Authentication");
+    // await allure.story("Valid Login");
+    // await allure.description("Verify user can login with valid credentials");
+
+    // await allure.step("Login with valid creds", async () => {
+    //     await loginPage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
+    // });
+
     await loginPage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
     expect(await loginPage.getLoginPageTitle()).toBe('My Account');
 
@@ -40,6 +56,9 @@ test('Invalid user login test', async ({ page, loginPage }) => {
 let login_csv_data = CsvHelper.readCsv('src/testdata/logindata.csv');
 for (let user of login_csv_data) {
     test(`Invalid user login test with csv file - ${user.username} - ${user.password}`, async ({ loginPage }) => {
+        meta({ owner: 'Saket2', priority: 'P1', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34' })
+        await testData(login_csv_data, 'Invalid Login Data')
+        
         await loginPage.doLogin(user.username, user.password);
         expect(await loginPage.isInvalidLoginErrorPresent()).toBeTruthy();
     });
@@ -53,6 +72,9 @@ for (let user of login_csv_data) {
 let login_xlsx_data = ExcelHelper.readExcel('src/testdata/opencartdata.xlsx', 'login');
 for (let user of login_xlsx_data) {
     test(`Invalid user login test with excel file - ${user.username} - ${user.password}`, async ({ loginPage }) => {
+        meta({ owner: 'Saket3', priority: 'P2', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34' });
+        await testData(login_xlsx_data, 'Invalid Login Data');
+        
         await loginPage.doLogin(String(user.username), String(user.password));
         expect(await loginPage.isInvalidLoginErrorPresent()).toBeTruthy();
     });
@@ -65,6 +87,9 @@ for (let user of login_xlsx_data) {
 let login_json_data = JsonHelper.readJson('src/testdata/logindata.json');
 for (let user of login_json_data) {
     test(`Invalid user login test with json file - ${user.username} - ${user.password}`, async ({ loginPage }) => {
+        meta({ owner: 'Saket', priority: 'P2', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34' });
+        await testData(login_json_data, 'Invalid Login Data');
+
         await loginPage.doLogin(String(user.username), String(user.password));
         expect(await loginPage.isInvalidLoginErrorPresent()).toBeTruthy();
     });

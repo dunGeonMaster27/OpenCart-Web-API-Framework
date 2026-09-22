@@ -1,0 +1,72 @@
+[
+  {
+    id: 8634397,
+    name: 'New Test',
+    email: 'test1790077520723@kling-bernhard.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8634396,
+    name: 'Test',
+    email: 'test1790077520480@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8634395,
+    name: 'Test',
+    email: 'test1790077519932@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8634389,
+    name: 'New Test',
+    email: 'test1790077493620@kling-bernhard.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8634388,
+    name: 'Test',
+    email: 'test1790077492445@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8634387,
+    name: 'Test',
+    email: 'test1790077491722@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8634195,
+    name: 'Test',
+    email: 'test@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8634193,
+    name: 'New Test',
+    email: 'test1790071687313@kling-bernhard.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8634192,
+    name: 'Test',
+    email: 'test1790071687032@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8634191,
+    name: 'Test',
+    email: 'test1790071686484@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  }
+]

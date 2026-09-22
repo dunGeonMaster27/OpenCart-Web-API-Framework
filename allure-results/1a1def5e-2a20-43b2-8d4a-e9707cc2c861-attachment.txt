@@ -1,0 +1,72 @@
+[
+  {
+    id: 8634193,
+    name: 'New Test',
+    email: 'test1790071687313@kling-bernhard.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8634194,
+    name: 'Test',
+    email: 'test1790071687341@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8634192,
+    name: 'Test',
+    email: 'test1790071687032@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8634191,
+    name: 'Test',
+    email: 'test1790071686484@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8628333,
+    name: 'Saket',
+    email: 'saket@kling-bernhard.tessts',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8628303,
+    name: 'Test',
+    email: 'test1789745584158@kling-bernhard.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8626835,
+    name: 'Chandrabhaga Kakkar VM',
+    email: 'chandrabhaga_kakkar_vm@adams-schamberger.test',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8626834,
+    name: 'Tanushri Tandon',
+    email: 'tanushri_tandon@hagenes-schmidt.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8626831,
+    name: 'Anila Nambeesan',
+    email: 'anila_nambeesan@crist.test',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8626830,
+    name: 'Chetan Adiga',
+    email: 'chetan_adiga@bogan.example',
+    gender: 'male',
+    status: 'active'
+  }
+]

@@ -1,0 +1,261 @@
+[
+ {
+  "time": 1790077519481,
+  "duration": 32117.584000000003,
+  "passed": 50,
+  "failed": 12,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 62,
+  "tests": {
+   "chromium::tests/api/booking.api.spec.ts::Update Booking test": [
+    "p",
+    2591
+   ],
+   "chromium::tests/api/intercept.spec.ts::intercept and log request": [
+    "p",
+    2380
+   ],
+   "chromium::tests/api/intercept.spec.ts::mock search data": [
+    "p",
+    2227
+   ],
+   "chromium::tests/api/spotify.oauth2.spec.ts::Get Album test": [
+    "p",
+    822
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::Get user Schema Test": [
+    "p",
+    366
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::Get all users api Schema Test": [
+    "p",
+    136
+   ],
+   "chromium::tests/api/users.api.individual.spec.ts::Create user test": [
+    "p",
+    217
+   ],
+   "chromium::tests/api/users.api.individual.spec.ts::Update user test": [
+    "p",
+    414
+   ],
+   "chromium::tests/api/users.api.individual.spec.ts::Delete user test": [
+    "p",
+    517
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::GET api test": [
+    "p",
+    126
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::POST api test": [
+    "f",
+    110
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::GET api test with ID": [
+    "f",
+    93
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::PUT api test": [
+    "f",
+    576
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::PATCH api test": [
+    "f",
+    533
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::DELETE api test": [
+    "f",
+    699
+   ],
+   "chromium::tests/api/users.api.spec.ts::e2e rest api crud test › GET api test": [
+    "p",
+    965
+   ],
+   "chromium::tests/api/users.api.spec.ts::e2e rest api crud test › POST api test": [
+    "p",
+    169
+   ],
+   "chromium::tests/api/users.api.spec.ts::e2e rest api crud test › GET api test with ID": [
+    "p",
+    499
+   ],
+   "chromium::tests/api/users.api.spec.ts::e2e rest api crud test › PUT api test": [
+    "p",
+    187
+   ],
+   "chromium::tests/api/users.api.spec.ts::e2e rest api crud test › DELETE api test": [
+    "p",
+    172
+   ],
+   "chromium::tests/homepage.spec.ts::home page title test": [
+    "p",
+    3783
+   ],
+   "chromium::tests/homepage.spec.ts::logout link test": [
+    "f",
+    2559
+   ],
+   "chromium::tests/homepage.spec.ts::all home page headers test": [
+    "p",
+    3048
+   ],
+   "chromium::tests/homepage.spec.ts::account header test": [
+    "f",
+    2870
+   ],
+   "chromium::tests/homepage.spec.ts::orders header test": [
+    "p",
+    3085
+   ],
+   "chromium::tests/homepage.spec.ts::affiliate header test": [
+    "p",
+    3539
+   ],
+   "chromium::tests/homepage.spec.ts::newsletter header test": [
+    "f",
+    3293
+   ],
+   "chromium::tests/homepagefix.spec.ts::home page title test": [
+    "p",
+    3736
+   ],
+   "chromium::tests/homepagefix.spec.ts::logout link test": [
+    "p",
+    3211
+   ],
+   "chromium::tests/homepagefix.spec.ts::all home page headers test": [
+    "p",
+    3235
+   ],
+   "chromium::tests/homepagefix.spec.ts::account header test": [
+    "p",
+    2721
+   ],
+   "chromium::tests/homepagefix.spec.ts::orders header test": [
+    "p",
+    2744
+   ],
+   "chromium::tests/homepagefix.spec.ts::affiliate header test": [
+    "p",
+    2917
+   ],
+   "chromium::tests/homepagefix.spec.ts::newsletter header test": [
+    "f",
+    2513
+   ],
+   "chromium::tests/loginpage.spec.ts::login page title test": [
+    "p",
+    1885
+   ],
+   "chromium::tests/loginpage.spec.ts::forgot password link test": [
+    "p",
+    1968
+   ],
+   "chromium::tests/loginpage.spec.ts::login test": [
+    "p",
+    2840
+   ],
+   "chromium::tests/loginpage.spec.ts::Invalid login error test": [
+    "p",
+    2617
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login page title test": [
+    "p",
+    2370
+   ],
+   "chromium::tests/loginpagefix.spec.ts::forgot password link test": [
+    "p",
+    2080
+   ],
+   "chromium::tests/loginpagefix.spec.ts::valid user login test": [
+    "p",
+    2685
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test": [
+    "p",
+    2714
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file - saket@test.comd - 12345": [
+    "p",
+    1986
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file - saket@test.com - ": [
+    "p",
+    1938
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file -  - 1234": [
+    "p",
+    1918
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file - saket@test.comd - 12345": [
+    "p",
+    1789
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file - saket@test.com - ": [
+    "p",
+    1943
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file -  - 1234": [
+    "p",
+    1808
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file - saket@test.comd - 12345": [
+    "p",
+    1756
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file - saket@test.com - ": [
+    "p",
+    1868
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file -  - 1234": [
+    "p",
+    1853
+   ],
+   "chromium::tests/productpage.spec.ts::product header test": [
+    "p",
+    4239
+   ],
+   "chromium::tests/productpage.spec.ts::product images count test": [
+    "p",
+    4306
+   ],
+   "chromium::tests/productpage.spec.ts::product info test": [
+    "p",
+    4141
+   ],
+   "chromium::tests/searchpage.spec.ts::search results test": [
+    "p",
+    4127
+   ],
+   "chromium::tests/searchpage.spec.ts::product selection test": [
+    "p",
+    3333
+   ],
+   "chromium::tests/searchpage.spec.ts::search results test - macbook - MacBook Pro": [
+    "p",
+    4224
+   ],
+   "chromium::tests/searchpage.spec.ts::search results test - macbook - MacBook Air": [
+    "p",
+    4213
+   ],
+   "chromium::tests/searchpage.spec.ts::search results test - imac - iMac": [
+    "p",
+    4339
+   ],
+   "chromium::tests/searchpage.spec.ts::product selection test - macbook - MacBook Pro": [
+    "f",
+    2133
+   ],
+   "chromium::tests/searchpage.spec.ts::product selection test - macbook - MacBook Air": [
+    "f",
+    1940
+   ],
+   "chromium::tests/searchpage.spec.ts::product selection test - imac - iMac": [
+    "f",
+    2218
+   ]
+  }
+ }
+]
