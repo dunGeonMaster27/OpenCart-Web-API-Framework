@@ -55,3 +55,23 @@ test('newsletter header test', async ({ page, homePage }) => {
     await page.waitForTimeout(500);
 })
 
+
+// Common Features Test
+
+test('App Logo Test', async ({ basePage }) => {
+    expect(await basePage.isLogoVisible()).toBeTruthy();
+});
+
+test('Search Box Test', async ({ basePage }) => {
+    expect(await basePage.isSearchBoxVisible()).toBeTruthy();
+});
+
+
+test('Cart Button Test', async ({ basePage }) => {
+    expect(await basePage.isCartButtonVisible()).toBeTruthy();
+})
+
+
+test('Footer Links Test', async ({ basePage }) => {
+    expect(await basePage.getFooterLinksCount()).toBe(16);
+})

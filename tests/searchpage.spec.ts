@@ -47,3 +47,24 @@ for (let product of products) {
         await searchResultsPage.selectProduct(product.productname);
     })
 }
+
+
+// Common Features Test
+
+test('App Logo Test', async ({ basePage }) => {
+    expect(await basePage.isLogoVisible()).toBeTruthy();
+});
+
+test('Search Box Test', async ({ basePage }) => {
+    expect(await basePage.isSearchBoxVisible()).toBeTruthy();
+});
+
+
+test('Cart Button Test', async ({ basePage }) => {
+    expect(await basePage.isCartButtonVisible()).toBeTruthy();
+})
+
+
+test('Footer Links Test', async ({ basePage }) => {
+    expect(await basePage.getFooterLinksCount()).toBe(16);
+})

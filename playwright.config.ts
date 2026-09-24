@@ -19,6 +19,7 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+  timeout: 25000,
   reporter: [
     ['list'],
     ['html', {
@@ -34,7 +35,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: process.env.BASE_URL || 'https://naveenautomationlabs.com',
-    headless: true,
+    headless: false,
     trace: 'on-first-retry',
   },
 

@@ -6,6 +6,10 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+/allure-results/
+/reporting-labs/
+/reports/
+reporting-labs.history.json
 
 # Node
 npm-debug.log*

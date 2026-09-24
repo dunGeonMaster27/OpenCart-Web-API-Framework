@@ -10,10 +10,10 @@ test.beforeEach(async ({ loginPage }) => {
 })
 
 test('login page title test', async ({ page, loginPage }) => {
-    meta({ owner: 'Saket', priority: 'P1', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34'})
+    meta({ owner: 'Saket', priority: 'P1', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34' })
 
-    expect(await loginPage.getLoginPageTitle()).toBe('Account Login');
-    await log('Login Page Title:', await loginPage.getLoginPageTitle());
+    expect(await loginPage.getPageTitle()).toBe('Account Login');
+    await log('Login Page Title:', await loginPage.getPageTitle());
 
     await page.waitForTimeout(500);
 })
@@ -37,7 +37,7 @@ test('valid user login test', async ({ page, loginPage }) => {
     // });
 
     await loginPage.doLogin(process.env.USERNAME!, process.env.PASSWORD!);
-    expect(await loginPage.getLoginPageTitle()).toBe('My Account');
+    expect(await loginPage.getPageTitle()).toBe('My Account');
 
     await page.waitForTimeout(500);
 })
@@ -58,7 +58,7 @@ for (let user of login_csv_data) {
     test(`Invalid user login test with csv file - ${user.username} - ${user.password}`, async ({ loginPage }) => {
         meta({ owner: 'Saket2', priority: 'P1', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34' })
         await testData(login_csv_data, 'Invalid Login Data')
-        
+
         await loginPage.doLogin(user.username, user.password);
         expect(await loginPage.isInvalidLoginErrorPresent()).toBeTruthy();
     });
@@ -74,7 +74,7 @@ for (let user of login_xlsx_data) {
     test(`Invalid user login test with excel file - ${user.username} - ${user.password}`, async ({ loginPage }) => {
         meta({ owner: 'Saket3', priority: 'P2', severity: 'minor', story: 'US101', epic: 'ep303', feature: 'F29', issue: 'bug34' });
         await testData(login_xlsx_data, 'Invalid Login Data');
-        
+
         await loginPage.doLogin(String(user.username), String(user.password));
         expect(await loginPage.isInvalidLoginErrorPresent()).toBeTruthy();
     });
@@ -94,3 +94,24 @@ for (let user of login_json_data) {
         expect(await loginPage.isInvalidLoginErrorPresent()).toBeTruthy();
     });
 }
+
+
+// Common Features Test
+
+test('App Logo Test', async ({ basePage }) => {
+    expect(await basePage.isLogoVisible()).toBeTruthy();
+});
+
+test('Search Box Test', async ({ basePage }) => {
+    expect(await basePage.isSearchBoxVisible()).toBeTruthy();
+});
+
+
+test('Cart Button Test', async ({ basePage }) => {
+    expect(await basePage.isCartButtonVisible()).toBeTruthy();
+})
+
+
+test('Footer Links Test', async ({ basePage }) => {
+    expect(await basePage.getFooterLinksCount()).toBe(16);
+})

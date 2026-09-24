@@ -257,5 +257,391 @@
     2218
    ]
   }
+ },
+ {
+  "time": 1790260685499,
+  "duration": 10107.179,
+  "passed": 11,
+  "failed": 6,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 17,
+  "tests": {
+   "chromium::tests/loginpagefix.spec.ts::login page title test": [
+    "p",
+    2559
+   ],
+   "chromium::tests/loginpagefix.spec.ts::forgot password link test": [
+    "p",
+    2727
+   ],
+   "chromium::tests/loginpagefix.spec.ts::valid user login test": [
+    "p",
+    3257
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test": [
+    "p",
+    3081
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file - saket@test.comd - 12345": [
+    "p",
+    2582
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file - saket@test.com - ": [
+    "p",
+    1874
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file -  - 1234": [
+    "p",
+    1821
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file - saket@test.comd - 12345": [
+    "p",
+    1791
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file - saket@test.com - ": [
+    "p",
+    1771
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file -  - 1234": [
+    "f",
+    1653
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file - saket@test.comd - 12345": [
+    "p",
+    1811
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file - saket@test.com - ": [
+    "f",
+    1727
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file -  - 1234": [
+    "p",
+    1860
+   ],
+   "chromium::tests/loginpagefix.spec.ts::App Logo Test": [
+    "f",
+    1398
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Search Box Test": [
+    "f",
+    1450
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Cart Button Test": [
+    "f",
+    1426
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Footer Links Test": [
+    "f",
+    1349
+   ]
+  }
+ },
+ {
+  "time": 1790260839173,
+  "duration": 9747.019,
+  "passed": 11,
+  "failed": 6,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 17,
+  "tests": {
+   "chromium::tests/loginpagefix.spec.ts::login page title test": [
+    "p",
+    2398
+   ],
+   "chromium::tests/loginpagefix.spec.ts::forgot password link test": [
+    "p",
+    2406
+   ],
+   "chromium::tests/loginpagefix.spec.ts::valid user login test": [
+    "p",
+    3094
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test": [
+    "p",
+    2895
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file - saket@test.comd - 12345": [
+    "p",
+    2353
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file - saket@test.com - ": [
+    "p",
+    1801
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with csv file -  - 1234": [
+    "p",
+    1728
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file - saket@test.comd - 12345": [
+    "f",
+    1722
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file - saket@test.com - ": [
+    "p",
+    1859
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with excel file -  - 1234": [
+    "p",
+    1799
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file - saket@test.comd - 12345": [
+    "f",
+    1864
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file - saket@test.com - ": [
+    "p",
+    1923
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Invalid user login test with json file -  - 1234": [
+    "p",
+    1893
+   ],
+   "chromium::tests/loginpagefix.spec.ts::App Logo Test": [
+    "f",
+    1466
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Search Box Test": [
+    "f",
+    1513
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Cart Button Test": [
+    "f",
+    1516
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Footer Links Test": [
+    "f",
+    1521
+   ]
+  }
+ },
+ {
+  "time": 1790260855619,
+  "duration": 2678.6760000000004,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/loginpagefix.spec.ts::Search Box Test": [
+    "f",
+    1949
+   ]
+  }
+ },
+ {
+  "time": 1790260888469,
+  "duration": 2609.598,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/loginpagefix.spec.ts::App Logo Test": [
+    "f",
+    1771
+   ]
+  }
+ },
+ {
+  "time": 1790260953454,
+  "duration": 2457.6730000000002,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/loginpagefix.spec.ts::App Logo Test": [
+    "p",
+    1614
+   ]
+  }
+ },
+ {
+  "time": 1790261035771,
+  "duration": 5621.509,
+  "passed": 6,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 7,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::product header test": [
+    "p",
+    4417
+   ],
+   "chromium::tests/productpage.spec.ts::product images count test": [
+    "p",
+    4668
+   ],
+   "chromium::tests/productpage.spec.ts::product info test": [
+    "p",
+    4454
+   ],
+   "chromium::tests/productpage.spec.ts::App Logo Test": [
+    "p",
+    2408
+   ],
+   "chromium::tests/productpage.spec.ts::Search Box Test": [
+    "p",
+    2501
+   ],
+   "chromium::tests/productpage.spec.ts::Cart Button Test": [
+    "f",
+    2021
+   ],
+   "chromium::tests/productpage.spec.ts::Footer Links Test": [
+    "p",
+    1994
+   ]
+  }
+ },
+ {
+  "time": 1790261089265,
+  "duration": 5658.327,
+  "passed": 4,
+  "failed": 3,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 7,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::product header test": [
+    "p",
+    4488
+   ],
+   "chromium::tests/productpage.spec.ts::product images count test": [
+    "p",
+    4568
+   ],
+   "chromium::tests/productpage.spec.ts::product info test": [
+    "p",
+    4506
+   ],
+   "chromium::tests/productpage.spec.ts::App Logo Test": [
+    "p",
+    2445
+   ],
+   "chromium::tests/productpage.spec.ts::Search Box Test": [
+    "f",
+    2476
+   ],
+   "chromium::tests/productpage.spec.ts::Cart Button Test": [
+    "f",
+    1964
+   ],
+   "chromium::tests/productpage.spec.ts::Footer Links Test": [
+    "f",
+    1902
+   ]
+  }
+ },
+ {
+  "time": 1790261117050,
+  "duration": 3039.405,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::Footer Links Test": [
+    "p",
+    2422
+   ]
+  }
+ },
+ {
+  "time": 1790261125121,
+  "duration": 2596.188,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::Search Box Test": [
+    "p",
+    2121
+   ]
+  }
+ },
+ {
+  "time": 1790261129018,
+  "duration": 2681.621,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::Cart Button Test": [
+    "f",
+    2214
+   ]
+  }
+ },
+ {
+  "time": 1790261188420,
+  "duration": 3997.16,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::Cart Button Test": [
+    "f",
+    2666
+   ]
+  }
+ },
+ {
+  "time": 1790261384574,
+  "duration": 6712.714,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::App Logo Test": [
+    "p",
+    5559
+   ]
+  }
+ },
+ {
+  "time": 1790261406451,
+  "duration": 3805.0619999999994,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::Cart Button Test": [
+    "f",
+    2657
+   ]
+  }
+ },
+ {
+  "time": 1790261433839,
+  "duration": 81559.103,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/productpage.spec.ts::Cart Button Test": [
+    "f",
+    80253
+   ]
+  }
  }
 ]

@@ -29,10 +29,6 @@ export class LoginPage extends BasePage {
         await this.page.goto(this.url);
     }
 
-    async getLoginPageTitle(): Promise<string> {
-        return await this.page.title();
-    }
-
     async isForgottenPasswordLinkPresent(): Promise<boolean> {
         return await this.forgottenPasswordLink.isVisible();
     }
